@@ -10,7 +10,7 @@ flowchart TD
     mainWorkflow --> marketDataWorkflow --> getMarketDataTool
     mainWorkflow -->|Combine outputs| reportAgent
     reportAgent -->|Markdown brief| User
-````
+```
 
 1. **User Inputs** one or more stock tickers.
 2. **`marketDataWorkflow`** fetches the latest daily market data via Polygon.io.
